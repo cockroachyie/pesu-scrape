@@ -25,6 +25,8 @@ for srnunique in range(202400001, 202401000):
     searchbutton=driver.find_element(By.ID, "knowClsSectionModalSearch") #find search button
     searchbutton.click()
 
+    sleep(1)
+
     try:
         tbody = driver.find_element(By.ID, "knowClsSectionModalTableDate")
         trows = tbody.find_elements(By.TAG_NAME, "tr")
@@ -41,6 +43,8 @@ for srnunique in range(202400001, 202401000):
         print("No Data for ", srninput)
 
     srnin.clear()
+    
+    sleep(1)
 
 with open('pes.csv', 'w', newline='') as file:
     writer = csv.writer(file)
