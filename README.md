@@ -6,21 +6,17 @@ A simple python application that automates the process of fetching student infor
 - Python 3.x
 - Selenium
 - Firefox (or another supported browser)
-- Geckodriver (for Firefox) or the appropriate driver for your browser
 
 ## Installation
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/your-repository-name.git
-   cd your-repository-name
+   git clone https://github.com/cockroachyiee/pesu-scrape.git
+   cd pesu-scrape
    ```
 
 2. **Install dependencies:**
    ```bash
    pip install selenium
    ```
-
-3. **Download and set up the browser driver:**
-   - For Firefox, download [Geckodriver](https://github.com/mozilla/geckodriver/releases) and follow the installation instructions for your operating system.
 
