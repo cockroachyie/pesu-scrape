@@ -8,14 +8,14 @@ driver.get("https://www.pesuacademy.com/Academy/")
 
 sleep(15)
 
-srn="PES1"
+srn="PES1"      #Replace with "PES2" for Electronic City Campus
 
 knowyourclass=driver.find_element(By.ID, "knowClsSection") #find Know Your Class and Section button
 knowyourclass.click()
 
 results=[]
 
-for srnunique in range(202400001, 202401000):
+for srnunique in range(202400001, 202401000):     #Change range as required. The first 4 digits of srnunique represent the year of joining, change as required.
     srninput=srn+str(srnunique)
 
 
