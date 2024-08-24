@@ -11,7 +11,7 @@ A simple python application that automates the process of fetching student infor
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/cockroachyiee/pesu-scrape.git
+   git clone https://github.com/cockroachyie/pesu-scrape.git
    cd pesu-scrape
    ```
 
